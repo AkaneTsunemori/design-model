@@ -11,6 +11,6 @@ public class RectDecorator extends GameObjectDecorator{
     public void paint(Graphics g){
         super.paint(g);
         g.setColor(Color.BLUE);
-        g.drawRect(gameObject.getX()-2, gameObject.getY()-2, gameObject.getWidth()+2,gameObject.getHeight()+2);
+        g.drawRect(gameObject.getX(), gameObject.getY(), gameObject.getWidth(),gameObject.getHeight());
     }
 }
